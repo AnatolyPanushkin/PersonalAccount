@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "FspUd2NyZIGTmgl5c2vs6GNyKW8j5KWcs+5gZXXioq4=",
+  "Source": "PersonalAccount",
+  "BasePath": "_content/PersonalAccount",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
