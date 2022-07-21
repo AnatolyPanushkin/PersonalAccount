@@ -10,4 +10,6 @@ public interface IPersonalAccService
     Task<ICollection<PrintXlsx>> ByTicketNumberPrintAsync(ByTicketNumberPrint byTicketNumberPrint);
 
     Task<ICollection<DataAll>> XlsxByTicketNumber(ByTicketNumberPrint byTicketNumberPrint);
+
+    Task<ICollection<AirlineCompany>> GetAllAirCompanies();
 }

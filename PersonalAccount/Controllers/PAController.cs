@@ -247,5 +247,11 @@ public class PaController:ControllerBase
         stream.Close();
         return Ok();*/
     }
+
+    [HttpPost("get_all_airlines")]
+    public async Task<ActionResult> GetAllAirlines()
+    {
+        return Ok(await _service.GetAllAirCompanies());
+    }
     
 }

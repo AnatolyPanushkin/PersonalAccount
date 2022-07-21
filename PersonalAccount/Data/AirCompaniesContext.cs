@@ -16,7 +16,7 @@ namespace PersonalAccount.Data
         {
         }
 
-        public virtual DbSet<AirlineCompany> AirlineCompanies { get; set; } = null!;
+        public virtual DbSet<AirlineCompany> AirlineCompany { get; set; } = null!;
         public virtual DbSet<DataAll> DataAlls { get; set; } = null!;
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)

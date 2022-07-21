@@ -99,6 +99,9 @@ public class PersonalAccService:IPersonalAccService
         
     }
 
-
+    public async Task<ICollection<AirlineCompany>> GetAllAirCompanies()
+    {
+        return  await _context.AirlineCompany.Select(t => t).ToListAsync();
+    }
     
 }
